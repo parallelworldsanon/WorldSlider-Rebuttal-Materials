@@ -21,9 +21,9 @@ Each cell lists **WorldSlider / Captain Safari**. Captain Safari reports AUC@30 
 - **Four supplementary examples.** We reconstruct camera trajectories from the real footage and use them as shared evaluation references. These results measure agreement with the reconstructed paths.
 - **Generation and scoring.** WorldSlider takes the corresponding source first frame in a center-square crop and generates one clip with FlightGrid. We evaluate Captain Safari's published videos as provided by its authors. ViPE recovers a camera path from each output, and we apply the rotation and scale-aligned, path-normalized translation error protocol in Table 1 of our paper. Captain Safari's scores use its full 16:9 output. The previews show a center crop.
 
-## Visual quality and trajectory fidelity
+## Recovered camera trajectories
 
-Captain Safari shows stronger visual quality in our side-by-side comparison of the five clips. Its pose-aligned 3D memory is designed to support long-horizon scene consistency. On the released demo, WorldSlider follows the published camera poses more closely, with 5.29° rotation error and 0.042 translation error compared with 7.37° and 0.059. [Captain Safari project](https://johnson111788.github.io/open-safari/) · [Supplementary comparisons](https://johnson111788.github.io/captain-safari-supp/#comparisons)
+Captain Safari's published examples show convincing egocentric flight. On the released demo, WorldSlider follows the published camera poses more closely, with 5.29° rotation error and 0.042 translation error compared with 7.37° and 0.059. [Captain Safari project](https://johnson111788.github.io/open-safari/) · [Supplementary comparisons](https://johnson111788.github.io/captain-safari-supp/#comparisons)
 
 The recovered path overlay for `1cc10a3e_5` shows a visible deviation from the reconstructed reference in Captain Safari's published clip. This example has the largest rotation gap in the set, at 6.58° for WorldSlider and 34.02° for Captain Safari. The summary includes all five examples. Tracking the reference flight matters when generated observations are paired with the original waypoint and action annotations.
 
