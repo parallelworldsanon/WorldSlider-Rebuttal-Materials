@@ -10,4 +10,6 @@ Supplementary material for the WorldSlider author response.
 
 ## Materials
 
+- [Head-to-head on Captain Safari's own showcased clips](captain_safari_official.md)
+
 Add the evaluation protocol, verified comparison tables, and synchronized demos here when available.
