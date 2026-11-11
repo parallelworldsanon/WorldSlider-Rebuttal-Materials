@@ -6,22 +6,17 @@
 - **WorldSlider:** ours, 2B.
 
 **Protocol**
-- **Clips:** the first ten clips of each evaluation list (MotionScape, Sekai, TartanAir). On one H200 GPU, Lyra 2.0 takes about 14 minutes and Voyager about 9 minutes to generate one clip, while WorldSlider takes about 10 seconds. That cost limits this comparison to ten clips per benchmark.
-- **Settings:** seed 0 and each method's official default inference settings, run on one H200.
-- **Metric:** ViPE recovers each generated video's camera path, which is compared with the target path. Values are mean ± 1×SE.
-  - Rotation error in degrees, lower is better.
-  - Length-normalised translation error, lower is better.
-- **Path length:** both baselines reconstruct the first frame with scale-free monocular depth (MoGe).
-  - TartanAir: the metric target path is converted into each method's scene units.
-  - MotionScape and Sekai: each method's default path length is used.
+- We use the first 10 clips from each evaluation list (MotionScape, Sekai, and TartanAir), seed 0, and the baselines' official default inference settings.
+- On one H200, generation takes about 10 seconds per clip for WorldSlider, 14 minutes for Lyra 2.0, and 9 minutes for Voyager.
+- We report mean rotation (°) and translation errors by comparing ViPE-recovered trajectories with the target trajectories.
 
 | Method | MS Rot. ↓ | MS Trans. ↓ | SK Rot. ↓ | SK Trans. ↓ | TA Rot. ↓ | TA Trans. ↓ | Visual collapses |
 |---|---|---|---|---|---|---|---|
-| Lyra 2.0 (14B) | **3.72±1.26** | 0.117±0.046 | **0.41±0.10** | **0.042±0.013** | 18.49±5.04 | 0.166±0.023 | 1 / 30 |
-| Voyager (13B) | 14.30±4.30 | 0.173±0.040 | 0.94±0.29 | 0.043±0.016 | 28.22±5.39 | 0.358±0.037 | 6 / 30 |
-| **WorldSlider (Ours, 2B)** | 5.15±2.71 | **0.101±0.044** | 1.30±0.29 | 0.092±0.044 | **4.96±0.96** | **0.081±0.012** | – |
+| Lyra 2.0 (14B) | **3.72** | 0.117 | **0.41** | **0.042** | 18.49 | 0.166 | 1 / 30 |
+| Voyager (13B) | 14.30 | 0.173 | 0.94 | 0.043 | 28.22 | 0.358 | 6 / 30 |
+| **WorldSlider (Ours, 2B)** | 5.15 | **0.101** | 1.30 | 0.092 | **4.96** | **0.081** | – |
 
-ViPE recovered a camera path for every video. A visual collapse means the scene is lost in the video, for example fog, noise, a black frame or a frozen view. Collapsed videos are kept in the means.
+All clips, including visually collapsed outputs, contribute to the reported means.
 
 ## Examples
 
