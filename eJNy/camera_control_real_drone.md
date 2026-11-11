@@ -7,7 +7,7 @@
 
 **Protocol**
 - ViPE successfully recovered camera trajectories for every method on all 25 clips per dataset. Each reported mean and standard error uses all 25 clips.
-- Seed 0 for every method. Values are mean ± 1×SE, the same basis as Table 1 of the paper.
+- All methods use seed 0. Values are mean ± one standard error across clips.
 - **Metric:** ViPE recovers the camera path of each generated video, which is compared with the target camera path.
   - Rotation error in degrees, lower is better.
   - Length-normalised translation error, lower is better.
