@@ -6,7 +6,7 @@
 - **WorldSlider:** ours, 2B.
 
 **Protocol**
-- **Clips:** the first ten clips of each evaluation list (MotionScape, Sekai, TartanAir). On one H200 GPU, Lyra 2.0 takes about 14 minutes and Voyager about 9 minutes to generate one clip, while WorldSlider takes about 20 seconds. That cost limits this comparison to ten clips per benchmark.
+- **Clips:** the first ten clips of each evaluation list (MotionScape, Sekai, TartanAir). On one H200 GPU, Lyra 2.0 takes about 14 minutes and Voyager about 9 minutes to generate one clip, while WorldSlider takes about 10 seconds. That cost limits this comparison to ten clips per benchmark.
 - **Settings:** seed 0 and each method's official default inference settings, run on one H200.
 - **Metric:** ViPE recovers each generated video's camera path, which is compared with the target path. Values are mean ± 1×SE.
   - Rotation error in degrees, lower is better.
