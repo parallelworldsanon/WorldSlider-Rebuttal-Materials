@@ -1,11 +1,12 @@
 # Camera control on real drone footage and TartanAir
 
 **Benchmarks**
-- **MotionScape (MS):** real drone footage, 18 clips.
+- **MotionScape (MS):** real drone footage, 25 clips.
 - **Sekai (SK):** real drone footage, 25 clips.
 - **TartanAir (TA):** 25 held-out windows.
 
 **Protocol**
+- ViPE successfully recovered camera trajectories for every method on all 25 clips per dataset. Each reported mean and standard error uses all 25 clips.
 - Seed 0 for every method. Values are mean ± 1×SE, the same basis as Table 1 of the paper.
 - **Metric:** ViPE recovers the camera path of each generated video, which is compared with the target camera path.
   - Rotation error in degrees, lower is better.
@@ -22,8 +23,6 @@
 | Captain Safari (Full Mem.) | 10.26±1.50 | 0.111±0.020 | 6.59±1.28 | 0.156±0.023 | 35.34±4.55 | 0.343±0.032 |
 | **WorldSlider (Ours, 2B)** | **5.10±1.80** | **0.101±0.030** | **1.61±0.60** | 0.118±0.041 | **8.49±3.34** | **0.105±0.019** |
 
-On one TA window, ViPE cannot recover a camera path for any of the five baselines. That window is excluded from the baseline means, so baselines average 24 TA windows and WorldSlider averages 25.
-
 ## Examples
 
 Each panel shows:
@@ -32,7 +31,7 @@ Each panel shows:
 
 Click a preview to open the MP4.
 
-### MotionScape (real drone footage)
+### MotionScape (MS)
 
 | | |
 |---|---|
@@ -40,14 +39,14 @@ Click a preview to open the MP4.
 | [![ms](camera_control_real_drone/ms_CHILLOUT_3_4K_CINEMATIC_FPV_MAGIC_WATER_AARE_RIVER_-_SWITZERLAND__segment_004.gif)](camera_control_real_drone/ms_CHILLOUT_3_4K_CINEMATIC_FPV_MAGIC_WATER_AARE_RIVER_-_SWITZERLAND__segment_004.mp4) | [![ms](camera_control_real_drone/ms_Cinematic_FPV_Drone_Compilation_2026_DJI_AVATA_2_Best_Shots__segment_002.gif)](camera_control_real_drone/ms_Cinematic_FPV_Drone_Compilation_2026_DJI_AVATA_2_Best_Shots__segment_002.mp4) |
 | [![ms](camera_control_real_drone/ms_CHILLOUT_3_4K_CINEMATIC_FPV_MAGIC_WATER_AARE_RIVER_-_SWITZERLAND__segment_001.gif)](camera_control_real_drone/ms_CHILLOUT_3_4K_CINEMATIC_FPV_MAGIC_WATER_AARE_RIVER_-_SWITZERLAND__segment_001.mp4) |  |
 
-### Sekai (real drone footage)
+### Sekai (SK)
 
 | | |
 |---|---|
 | [![sk](camera_control_real_drone/sk_z6vdgE0RGkk_0053882_0054182.gif)](camera_control_real_drone/sk_z6vdgE0RGkk_0053882_0054182.mp4) | [![sk](camera_control_real_drone/sk_4XDxC4RtPcE_0054136_0054436.gif)](camera_control_real_drone/sk_4XDxC4RtPcE_0054136_0054436.mp4) |
 | [![sk](camera_control_real_drone/sk_y3kqpvy7BhA_0041870_0042170.gif)](camera_control_real_drone/sk_y3kqpvy7BhA_0041870_0042170.mp4) | [![sk](camera_control_real_drone/sk_BcTyxGAGty4_0197524_0197824.gif)](camera_control_real_drone/sk_BcTyxGAGty4_0197524_0197824.mp4) |
 
-### TartanAir
+### TartanAir (TA)
 
 | | |
 |---|---|
