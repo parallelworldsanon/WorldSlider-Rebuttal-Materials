@@ -6,7 +6,7 @@
 - **WorldSlider:** ours, 2B.
 
 **Protocol**
-- **Clips:** the first nine clips of each evaluation list (MotionScape, Sekai, TartanAir).
+- **Clips:** the first ten clips of each evaluation list (MotionScape, Sekai, TartanAir). On one H200 GPU, Lyra 2.0 takes about 14 minutes and Voyager about 9 minutes to generate one clip, while WorldSlider takes about 20 seconds. That cost limits this comparison to ten clips per benchmark.
 - **Settings:** seed 0 and each method's official default inference settings, run on one H200.
 - **Metric:** ViPE recovers each generated video's camera path, which is compared with the target path. Values are mean ± 1×SE.
   - Rotation error in degrees, lower is better.
@@ -17,19 +17,11 @@
 
 | Method | MS Rot. ↓ | MS Trans. ↓ | SK Rot. ↓ | SK Trans. ↓ | TA Rot. ↓ | TA Trans. ↓ | Visual collapses |
 |---|---|---|---|---|---|---|---|
-| Lyra 2.0 (14B) | **3.00±1.15** | **0.104±0.050** | **0.41±0.11** | **0.037±0.014** | 16.68±5.26 | 0.165±0.026 | 1 / 27 |
-| Voyager (13B) | 12.66±4.45 | 0.147±0.035 | 1.01±0.31 | 0.043±0.018 | 29.24±5.92 | 0.379±0.034 | 6 / 27 |
-| **WorldSlider (Ours, 2B)** | 5.04±3.03 | 0.108±0.049 | 1.26±0.33 | 0.099±0.049 | **5.26±1.03** | **0.087±0.012** | – |
+| Lyra 2.0 (14B) | **3.72±1.26** | 0.117±0.046 | **0.41±0.10** | **0.042±0.013** | 18.49±5.04 | 0.166±0.023 | 1 / 30 |
+| Voyager (13B) | 14.30±4.30 | 0.173±0.040 | 0.94±0.29 | 0.043±0.016 | 28.22±5.39 | 0.358±0.037 | 6 / 30 |
+| **WorldSlider (Ours, 2B)** | 5.15±2.71 | **0.101±0.044** | 1.30±0.29 | 0.092±0.044 | **4.96±0.96** | **0.081±0.012** | – |
 
 ViPE recovered a camera path for every video. A visual collapse means the scene is lost in the video, for example fog, noise, a black frame or a frozen view. Collapsed videos are kept in the means.
-
-## Generation cost (one H200, model load excluded)
-
-| Method | Output | Sampling | Generation time / video (s) | Model load (s) | Peak GPU memory (GiB) |
-|---|---|---|---|---|---|
-| Lyra 2.0 (14B) | 161 frames @ 16 fps | 2 chunks × 35 steps, CFG | 848 | 51 | 74.6 |
-| Voyager (13B) | 45 frames @ 24 fps | 50 steps, CFG | 552 | 32 | 74.2 |
-| **WorldSlider (Ours, 2B)** | 93 frames @ 10 fps | 4 steps | **22.2** (denoising 8.7) | 89.6 | **58.7** |
 
 ## Examples
 
