@@ -32,35 +32,24 @@ Each panel shows:
 
 Click a preview to open the MP4.
 
-### TartanAir
+### MotionScape (real drone footage)
 
-[![ta](camera_control_real_drone/ta_Apocalyptic_P003_s00595.gif)](camera_control_real_drone/ta_Apocalyptic_P003_s00595.mp4)
-
-[![ta](camera_control_real_drone/ta_BrushifyMoon_P003_s04235.gif)](camera_control_real_drone/ta_BrushifyMoon_P003_s04235.mp4)
-
-[![ta](camera_control_real_drone/ta_CastleFortress_P002_s01855.gif)](camera_control_real_drone/ta_CastleFortress_P002_s01855.mp4)
-
-[![ta](camera_control_real_drone/ta_CyberPunkDowntown_P001_s02135.gif)](camera_control_real_drone/ta_CyberPunkDowntown_P001_s02135.mp4)
+| | |
+|---|---|
+| [![ms](camera_control_real_drone/ms_Captivating_Autumn_Leaves_A_Visual_Feast_-_4K_FPV_Drone__segment_000.gif)](camera_control_real_drone/ms_Captivating_Autumn_Leaves_A_Visual_Feast_-_4K_FPV_Drone__segment_000.mp4) | [![ms](camera_control_real_drone/ms_CINEMATIC_FPV_MIXED_SPOTS_-_SWITZERLAND_GOPRO_HERO7_HYPERSMOOTH_MOJO_COLORED__segment_001.gif)](camera_control_real_drone/ms_CINEMATIC_FPV_MIXED_SPOTS_-_SWITZERLAND_GOPRO_HERO7_HYPERSMOOTH_MOJO_COLORED__segment_001.mp4) |
+| [![ms](camera_control_real_drone/ms_CHILLOUT_3_4K_CINEMATIC_FPV_MAGIC_WATER_AARE_RIVER_-_SWITZERLAND__segment_004.gif)](camera_control_real_drone/ms_CHILLOUT_3_4K_CINEMATIC_FPV_MAGIC_WATER_AARE_RIVER_-_SWITZERLAND__segment_004.mp4) | [![ms](camera_control_real_drone/ms_Cinematic_FPV_Drone_Compilation_2026_DJI_AVATA_2_Best_Shots__segment_002.gif)](camera_control_real_drone/ms_Cinematic_FPV_Drone_Compilation_2026_DJI_AVATA_2_Best_Shots__segment_002.mp4) |
+| [![ms](camera_control_real_drone/ms_CHILLOUT_3_4K_CINEMATIC_FPV_MAGIC_WATER_AARE_RIVER_-_SWITZERLAND__segment_001.gif)](camera_control_real_drone/ms_CHILLOUT_3_4K_CINEMATIC_FPV_MAGIC_WATER_AARE_RIVER_-_SWITZERLAND__segment_001.mp4) |  |
 
 ### Sekai (real drone footage)
 
-[![sk](camera_control_real_drone/sk_z6vdgE0RGkk_0053882_0054182.gif)](camera_control_real_drone/sk_z6vdgE0RGkk_0053882_0054182.mp4)
+| | |
+|---|---|
+| [![sk](camera_control_real_drone/sk_z6vdgE0RGkk_0053882_0054182.gif)](camera_control_real_drone/sk_z6vdgE0RGkk_0053882_0054182.mp4) | [![sk](camera_control_real_drone/sk_4XDxC4RtPcE_0054136_0054436.gif)](camera_control_real_drone/sk_4XDxC4RtPcE_0054136_0054436.mp4) |
+| [![sk](camera_control_real_drone/sk_y3kqpvy7BhA_0041870_0042170.gif)](camera_control_real_drone/sk_y3kqpvy7BhA_0041870_0042170.mp4) | [![sk](camera_control_real_drone/sk_BcTyxGAGty4_0197524_0197824.gif)](camera_control_real_drone/sk_BcTyxGAGty4_0197524_0197824.mp4) |
 
-[![sk](camera_control_real_drone/sk_4XDxC4RtPcE_0054136_0054436.gif)](camera_control_real_drone/sk_4XDxC4RtPcE_0054136_0054436.mp4)
+### TartanAir
 
-[![sk](camera_control_real_drone/sk_y3kqpvy7BhA_0041870_0042170.gif)](camera_control_real_drone/sk_y3kqpvy7BhA_0041870_0042170.mp4)
-
-[![sk](camera_control_real_drone/sk_BcTyxGAGty4_0197524_0197824.gif)](camera_control_real_drone/sk_BcTyxGAGty4_0197524_0197824.mp4)
-
-### MotionScape (real drone footage)
-
-[![ms](camera_control_real_drone/ms_Captivating_Autumn_Leaves_A_Visual_Feast_-_4K_FPV_Drone__segment_000.gif)](camera_control_real_drone/ms_Captivating_Autumn_Leaves_A_Visual_Feast_-_4K_FPV_Drone__segment_000.mp4)
-
-[![ms](camera_control_real_drone/ms_CINEMATIC_FPV_MIXED_SPOTS_-_SWITZERLAND_GOPRO_HERO7_HYPERSMOOTH_MOJO_COLORED__segment_001.gif)](camera_control_real_drone/ms_CINEMATIC_FPV_MIXED_SPOTS_-_SWITZERLAND_GOPRO_HERO7_HYPERSMOOTH_MOJO_COLORED__segment_001.mp4)
-
-[![ms](camera_control_real_drone/ms_CHILLOUT_3_4K_CINEMATIC_FPV_MAGIC_WATER_AARE_RIVER_-_SWITZERLAND__segment_004.gif)](camera_control_real_drone/ms_CHILLOUT_3_4K_CINEMATIC_FPV_MAGIC_WATER_AARE_RIVER_-_SWITZERLAND__segment_004.mp4)
-
-[![ms](camera_control_real_drone/ms_Cinematic_FPV_Drone_Compilation_2026_DJI_AVATA_2_Best_Shots__segment_002.gif)](camera_control_real_drone/ms_Cinematic_FPV_Drone_Compilation_2026_DJI_AVATA_2_Best_Shots__segment_002.mp4)
-
-[![ms](camera_control_real_drone/ms_CHILLOUT_3_4K_CINEMATIC_FPV_MAGIC_WATER_AARE_RIVER_-_SWITZERLAND__segment_001.gif)](camera_control_real_drone/ms_CHILLOUT_3_4K_CINEMATIC_FPV_MAGIC_WATER_AARE_RIVER_-_SWITZERLAND__segment_001.mp4)
-
+| | |
+|---|---|
+| [![ta](camera_control_real_drone/ta_Apocalyptic_P003_s00595.gif)](camera_control_real_drone/ta_Apocalyptic_P003_s00595.mp4) | [![ta](camera_control_real_drone/ta_BrushifyMoon_P003_s04235.gif)](camera_control_real_drone/ta_BrushifyMoon_P003_s04235.mp4) |
+| [![ta](camera_control_real_drone/ta_CastleFortress_P002_s01855.gif)](camera_control_real_drone/ta_CastleFortress_P002_s01855.mp4) | [![ta](camera_control_real_drone/ta_CyberPunkDowntown_P001_s02135.gif)](camera_control_real_drone/ta_CyberPunkDowntown_P001_s02135.mp4) |
