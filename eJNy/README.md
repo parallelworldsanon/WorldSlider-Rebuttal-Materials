@@ -10,6 +10,7 @@ Supplementary material for the WorldSlider author response.
 
 ## Materials
 
+- [Camera control on real drone footage and TartanAir](camera_control_real_drone.md)
 - [Head-to-head on Captain Safari's own showcased clips](captain_safari_official.md)
 
 Add the evaluation protocol, verified comparison tables, and synchronized demos here when available.
