@@ -1,8 +1,8 @@
 # Comparison with Lyra 2.0 and Voyager
 
 **Methods**
-- **Lyra 2.0:** per-frame 3D cache, built on Wan2.1-14B.
-- **Voyager:** frame-0 point cloud, about 13B, released code.
+- **Lyra 2.0:** Wan2.1-14B backbone with an unfused per-frame 3D cache.
+- **Voyager:** 13B backbone with RGB-D point-cloud conditioning. Its long-range world cache starts from the first frame and accumulates points as generation extends.
 - **WorldSlider:** ours, 2B.
 
 **Protocol**
